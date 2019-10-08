@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.content h1{
+    font-family: "Exotc350 Bd BT";
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.content a{
+    margin-left: 550px;
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    padding: 0px 26px;
+    background-color: #0291DB;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    opacity: 0.75;
+}
+.content a h4{
+    font-size: 15px;
+}
+
+.content a:hover{
+    color: #0291DB;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 0 0 5px #0291DB;
+}
+
+.footer{
+    width: 100%;
+    color: white;
+    background: #0291DB;
+    margin-top: 100px;
+    overflow: hidden;
+    display: block;
+}
+
+.footer p.link a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+/* .footer a{
+    float: right;
+    text-decoration: none;
+    color: white;
+    display: block;
+} */
